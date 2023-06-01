@@ -12,7 +12,7 @@ from datetime import datetime
 from config import API_HASH, APP_ID, LOGGER, TG_BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL, CHANNEL_ID, PORT
 
 
-name =""" ❤️ WebX Bots """
+name =""" ❤️ Tg Movie Hd """
 
 
 class Bot(Client):
@@ -59,8 +59,8 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/CodeXBotz")
-        self.LOGGER(__name__).info(f""" \n\n   ❤️ WebXBots """)
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/tg_movie_hd")
+        self.LOGGER(__name__).info(f""" \n\n   ❤️ tg movie hd """)
         self.username = usr_bot_me.username
         #web-response
         app = web.AppRunner(await web_server())
